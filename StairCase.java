@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class StairCase {
     void method(){
