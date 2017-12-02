@@ -10,7 +10,7 @@ import java.util.Stack;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  * Using one extra stack
  */
 public class Stacksort {

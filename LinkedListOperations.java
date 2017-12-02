@@ -10,7 +10,7 @@ package learnjava;
  * @author Anusha K
  */
 public class LinkedListOperations {
-    int CompareLists(Node headA, Node headB) {
+ int CompareLists(Node headA, Node headB) {
     // This is a "method-only" submission. 
     // You only need to complete this method 
     
@@ -56,7 +56,7 @@ public class LinkedListOperations {
            n=n.next;
     }
     
-    return head.next;
+    return head;
 }
  
 int GetNode(Node head,int n) {
@@ -74,5 +74,30 @@ int GetNode(Node head,int n) {
     }
     return temp.data;
 }
+
+boolean hasCycle(Node head) {
+    Node slow, fast;
+    slow= head;
+    fast= head;
+    while(slow!=null && fast!=null && fast.next !=null){
+      slow= slow.next;
+      fast= fast.next.next;  
+      if(slow==fast)
+          return true;
+    }
+    return false;
+}
+void divideTwohalves(Node root){
+    Node head=root;
+    Node fast=root.next;
+    while(fast!=null){
+        fast=fast.next;
+        fast=fast!=null?fast.next:null;
+        root=root.next;
+    }
+    Node newhead=root.next;
+    root.next=null;
+}
+
 
 }

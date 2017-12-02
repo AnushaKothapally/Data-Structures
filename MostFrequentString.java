@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class MostFrequentString {
     

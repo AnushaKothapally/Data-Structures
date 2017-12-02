@@ -9,7 +9,7 @@ import jdk.nashorn.internal.objects.NativeString;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class FizzBuzz {
     

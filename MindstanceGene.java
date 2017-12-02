@@ -30,7 +30,7 @@ public class MindstanceGene {
     }
         Set<String> visited = new HashSet<>();
         Queue <String> queue = new LinkedList<>();
-        queue.offer(start);
+        queue.add(start);
         visited.add(start);
         while(!queue.isEmpty()){
         int queuesize=queue.size();

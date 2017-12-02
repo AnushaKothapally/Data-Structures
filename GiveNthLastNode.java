@@ -7,7 +7,7 @@ package learnjava;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class GiveNthLastNode {
    void give(Node root, int nn){

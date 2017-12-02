@@ -1,4 +1,4 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -35,6 +35,7 @@ public class QueueImpl {
         else{
              tail=(tail+1)%capacity;
         }  
+     //   System.out.print(head+"\t"+tail+"\t");
         array[tail]=element;
     }
     void Dequee() throws Exception{
@@ -49,7 +50,8 @@ public class QueueImpl {
         else{
         head=(head+1)%capacity;
         }
-        array[head]=null;
+       // array[head]=null;
+     //   System.out.println("Dequee"+head+"\t"+tail+"\t");
     }
     
     Object front(){
@@ -57,11 +59,9 @@ public class QueueImpl {
     }
     
     boolean isEmpty(){ 
-       if(head==-1&& tail==-1){
-       return true;
-       }
-       return false;
-    }
+       
+       return head==-1&& tail==-1;
+               }
     boolean isFull(){
         return ((tail+1)%capacity==head);
     }
@@ -86,8 +86,10 @@ public class QueueImpl {
      System.out.println("Enter element to add:");
      Object element4=s.next();
      que.Enqueue(element4);
+     Object element5=s.next();
+     que.Enqueue(element5);
     for(int i=0;i<que.array.length;i++){
-    System.out.println(que.array[i]+""+que.head+""+que.tail);
+    System.out.println(que.array[i]);
     }
  }
     

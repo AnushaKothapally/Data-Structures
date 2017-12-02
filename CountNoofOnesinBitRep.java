@@ -7,7 +7,7 @@ package learnjava;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class CountNoofOnesinBitRep {
     public static void main(String args[]){

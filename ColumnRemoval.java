@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class ColumnRemoval {
     static int[][] constructSubmatrix(int[][] matrix, int[] rowsToDelete, int[] columnsToDelete) {

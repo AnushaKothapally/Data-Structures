@@ -7,7 +7,7 @@ package learnjava;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class MatrixRotation {
     static void rotatematrix(int ar[][],int M, int N, int q){

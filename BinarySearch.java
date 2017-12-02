@@ -14,6 +14,7 @@ public class BinarySearch {
     boolean binarysearch(int[] array, int key){
         int left=0;
         int mid=0;
+        int a=9/0;
         int right=array.length-1;
         while(left<right){
          mid=left+(right-left)/2;
@@ -36,8 +37,8 @@ public class BinarySearch {
      int arr[]=new int[]{10,11,12,13,14,15};
      BinarySearch bs=new BinarySearch();
      System.out.println(bs.binarysearch(arr, 9));
-     
+      
  }
- 
+
     
 }

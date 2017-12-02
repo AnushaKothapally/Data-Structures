@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class StackImpl {
 
     Object[] array;
-    int top = -1, capacity;
+    int top =-1, capacity;
 
     void capacity() {
         Scanner s = new Scanner(System.in);
@@ -48,6 +48,6 @@ public class StackImpl {
     }
 
     boolean isFull() {
-        return top + 1 == capacity;
+        return top + 1 == array.length;
     }
 }

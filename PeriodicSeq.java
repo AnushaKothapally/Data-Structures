@@ -7,7 +7,7 @@ package learnjava;
 
 /**
  *
- * @author srishailamdasari1
+ * @author Anusha
  */
 public class PeriodicSeq {
     int periodicSequence(int s0, int a, int b, int m) {
