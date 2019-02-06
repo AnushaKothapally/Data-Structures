@@ -42,6 +42,7 @@ public class AnagramsList {
         l.add("AUNG");
         l.add("GUNA");
         l.add("NUGA");
+        l.add("Git Example");
               
         System.out.println(isAnagram(l).toString());
     }
